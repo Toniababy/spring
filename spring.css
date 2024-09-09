@@ -1,0 +1,667 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: white;
+    border-bottom: 2px;
+    border-style: solid;
+    border-color: rgb(218, 218, 218);
+    padding: 20px 100px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    gap: 20%;
+    z-index: 1;
+} 
+nav .drop{
+    display: flex;
+}
+nav img{
+    width: 250px;
+    /* height: 70px; */
+}
+
+.drop a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    padding: 0 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1px;
+}
+.down1 .column1{
+    color: black;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px black;
+    font-size: 20px;
+    width: 150%;
+    margin-top: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: none;
+    position: absolute;
+}
+.column1 li{
+    font-size: 15px;
+    list-style-type: none;
+    padding: 10px 40px;
+}
+.column1 li:hover{
+    color: green;
+}
+.down1:hover .column1{
+    display: block;
+
+}
+.down1{
+    position: relative;
+}
+
+.down2 .column2{
+    color: black;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px black;
+    font-size: 20px;
+    width: 150%;
+    margin-top: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: none;
+    position: absolute;
+}
+.column2 li{
+    font-size: 15px;
+    list-style-type: none;
+    padding: 10px 40px;
+}
+.column2 li:hover{
+    color: green;
+}
+.down2:hover .column2{
+    display: block;
+
+}
+.down2{
+    position: relative;
+}
+
+.down3 .column3{
+    color: black;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px black;
+    font-size: 20px;
+    width: 200%;
+    margin-top: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: none;
+    position: absolute;
+}
+.column3 li{
+    font-size: 15px;
+    list-style-type: none;
+    padding: 10px 40px;
+}
+.column3 li:hover{
+    color: green;
+}
+.down3:hover .column3{
+    display: block;
+
+}
+.down3{
+    position: relative;
+}
+
+.down4 .column4{
+    color: black;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px black;
+    width: 150%;
+    margin-top: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: none;
+    position: absolute;
+}
+.column4 li{
+    font-size: 15px;
+    list-style-type: none;
+    padding: 10px 40px;
+}
+.column4 li:hover{
+    color: green;
+}
+.down4:hover .column4{
+    display: block;
+
+}
+.down4{
+    position: relative;
+}
+
+.down5 .column5{
+    color: black;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px black;
+    width: 150%;
+    margin-top: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: none;
+    position: absolute;
+}
+.column5 li{
+    font-size: 15px;
+    list-style-type: none;
+    padding: 10px 40px;
+}
+.column5 li:hover{
+    color: green;
+}
+.down5:hover .column5{
+    display: block;
+
+}
+.down5{
+    position: relative;
+}
+
+.down6 .column6{
+    color: black;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px black;
+    width: 150%;
+    margin-top: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: none;
+    position: absolute;
+}
+.column6 li{
+    font-size: 15px;
+    list-style-type: none;
+    padding: 10px 40px;
+}
+.column6 li:hover{
+    color: green;
+}
+.down6:hover .column6{
+    display: block;
+
+}
+.down6{
+    position: relative;
+}
+
+
+.background{
+    width: 90%;
+    height: 50vh;
+    background-color: rgb(235,242,242);
+    position: relative;
+}
+.tri3{
+    position: absolute;
+    left: 100%;
+    background-color: rgb(109,179,63);
+    width: 157px;
+    height: 180px;
+}
+.tri4{
+    position: absolute;
+    left: 86%;
+    top: -20px;
+    background-color: rgb(128,234,110);
+    width: 200px;
+    height: 200px;
+    border-radius: 250px 0px 0px 0px;
+}
+.circle{
+    width: 600px;
+    height: 600px;
+    border-radius: 500px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    left: -125px;
+    top: -110px;
+}
+
+.tri1{
+    width: 270px;
+    height: 270px;
+    background-color: rgb(109,179,63);
+    transform: rotate(-50deg);
+    position: absolute;
+    z-index: 1;
+    left: -140px;
+    top: 55px;
+}
+.tri2{
+    width: 360px;
+    height: 350px;
+    background-color: rgb(128,234,110);
+    transform: rotate(-50deg);
+    position: absolute;
+   top: 250px;
+   left: 23px;
+}
+
+.text1{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 7% 40%;
+
+}
+
+.button{
+    margin-top: -5%;
+    background-color: transparent;
+    font-size: medium;
+    cursor: pointer;
+    position: relative;
+    color: black;
+    transition: color 0.5s;
+}
+.btn1{
+    background-color: transparent;
+    border: solid 2px black;
+    font-weight: 700;
+    margin-left: 40%;
+    width: 120px;
+    height: 60px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.btn2{
+    background-color: transparent;
+    border: solid 2px black;
+    font-weight: 700;
+    width: 120px;
+    height: 60px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.btn1:hover{
+
+    background-color: black;
+    color: white;
+    transition: all 0.5s ease-in-out;
+}
+.btn2:hover{
+    background-color: black;
+    color: white;
+    transition: all 0.5s ease-in-out;
+}
+.btt{
+    width: 100%;
+    border-bottom: 2px solid rgb(218, 218, 218);
+    z-index: 2;
+    position: absolute;
+}
+.under{
+    display: flex;
+    margin: 10px 30%;
+    align-items: center;
+    gap: 40px;
+}
+.under button{
+    background-color: rgb(29, 29, 219);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    width: 70px;
+    height: 30px;
+    font-size: 12px;
+    font-weight: 700;
+}
+.under p{
+    color: rgb(62, 62, 223);
+    margin: 10px 0;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.under p:hover{
+    text-decoration: underline;
+}
+.page2{
+    padding: 190px 0;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+}
+.Stext{
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px 170px;
+    margin-top: -80px;
+    font-weight: 600;
+    position: absolute;
+    z-index: 1;
+}
+.no1, .no2, .no3, .no4, .no5, .no6, .no7{
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    border: 1px rgb(218, 218, 218) solid;
+    height: 450px;
+    width: 20%;
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    /* download all image */
+}
+.no1:hover{
+    box-shadow: 2px 2px 4px rgb(181, 180, 196);
+    transform: translate(0px, -10px); 
+}
+.no2:hover{
+    box-shadow: 2px 2px 4px rgb(181, 180, 196);
+    transform: translate(0px, -10px); 
+}
+.no3:hover{
+    box-shadow: 2px 2px 4px rgb(181, 180, 196);
+    transform: translate(0px, -10px); 
+}
+.no4:hover{
+    box-shadow: 2px 2px 4px rgb(181, 180, 196);
+    transform: translate(0px, -10px); 
+}
+.no5:hover{
+    box-shadow: 2px 2px 4px rgb(181, 180, 196);
+    transform: translate(0px, -10px); 
+}
+.no6:hover{
+    box-shadow: 2px 2px 4px rgb(181, 180, 196);
+    transform: translate(0px, -10px); 
+}
+.no7:hover{
+    box-shadow: 2px 2px 4px rgb(181, 180, 196);
+    transform: translate(0px, -10px); 
+}
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+.no1 img{
+    width: 40vh;
+}
+.no1 h2{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    padding: 20px 0;
+}
+.no1 p{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    padding: 0 60px;
+}
+.no2 img{
+    width: 40vh;
+}
+.no2 h2{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    padding: 20px 0;
+}
+.no2 p{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    padding: 0 60px;
+}
+.no3 img{
+    width: 40vh;
+}
+.no3 h2{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    padding: 10px 0;
+}
+.no3 p{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    padding: 0 60px;
+}
+.no4 img{
+    width: 30vh;
+    margin: 0 50px;
+}
+.no4 h2{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    padding: 10px 0;
+}
+.no4 p{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    padding: 0 60px;
+}
+.no5 img{
+    width: 25vh;
+    margin: 0 50px;
+}
+.no5 h2{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    padding: 10px 0;
+}
+.no5 p{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    padding: 0 60px;
+}
+.no6 img{
+    width: 40vh;
+}
+.no6 h2{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    padding: 20px 0;
+}
+.no6 p{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    padding: 0 60px;
+}
+.no7 img{
+    width: 35vh;
+}
+.no7 h2{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    padding: 10px 0;
+}
+.no7 p{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+    padding: 0 60px;
+}
+.page3{
+    margin: 0px 50px;
+}
+.vid{
+    display: flex;
+    gap: 5%;
+}
+.tt{
+    padding: 60px 0;
+}
+.tt h1{
+    font-size: 50px;
+    padding: 10px 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+.tt p{
+    font-size: 23px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 20px 0;
+}
+.tt h5{
+    font-weight: 200;
+    font-size: 20px;
+}
+.quote p{
+    color: rgb(109,179,63);
+    margin-top: 30px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    padding: 0 220px;
+    text-align: center;
+}
+.mac{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin: 20px 30%;
+}
+.mac h4{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.mac p{
+    color: #3511ff;
+}
+.mac p:hover{
+    text-decoration: underline;
+}
+.rec1{
+    background-color: rgb(235,242,242);
+    width: 100%;
+    height: 50vh;
+    position: relative;
+}
+.rec1 .round{
+    width: 290px;
+    height: 270px;
+    background-color: rgb(109,179,63);
+    border-radius: 250px 0px 0px 0px;
+    position: absolute;
+    top: 99px;
+    left: 1293px;
+}
+.rec1 img{
+    width: 120px;
+    margin-left: 87%;
+    position: absolute;
+    top: 76px;
+}
+.tt1{
+    display: flex;
+    gap: 25px;
+    padding: 80px 300px;
+    margin-left: -100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.tt1 h1{
+    font-size: 30px;
+    padding: 10px 0;
+}
+.tt1 p{
+    font-size: 15px;
+    padding: 9px 0;
+}
+.tt1 a{
+    text-decoration: none;
+    
+}
+/* .col2 p{
+} */
+.foot{
+    margin: 100px;
+    display: flex;
+    gap: 20%;
+}
+.container{
+    display: flex;
+    gap: 50px;
+}
+.container p:hover{
+    color: green;
+}
+.container li{
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding: 5px 0px;
+}
+.container li:hover{
+    color: green;
+}
+.container p{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    padding: 10px 0px;
+}
+.box-foot{
+    width: 400px;
+    height: 150px;
+    border: 1px solid rgb(208, 214, 214);
+}
+.box-foot button{
+    background-color: transparent;
+    border: 1px solid black;
+    width: 150px;
+    height: 60px;
+    margin: 1px 20px;
+}
+.box-foot p{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px 20px;
+}
+.box-foot h1{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 20px;
+}
+.box-foot button:hover{
+    background-color: black;
+    color: white;
+}
+.footer{
+    display: flex;
+    padding: 0 190px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.footer-text h4{
+    font-weight: 200;
+    padding: 10px 300px;
+    margin-left: -300px;
+}
+.icons{
+    display: flex;
+    gap: 20px;
+}
+.footer-text p{
+    color: gray;
+    padding: 0 100px;
+    margin-left: -100px;
+}
